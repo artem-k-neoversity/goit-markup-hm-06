@@ -297,9 +297,6 @@ address {
   color: var(--ocean);
 }
 
-
-
-
 .mobile-menu-bottom {
   display: flex;
   flex-direction: column;
@@ -329,13 +326,12 @@ address {
 /* Hero */
 
 .hero {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 72px 0;
   background-color: var(--navy-blue);
   background-image:
-    linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-    url("../images/hero/people-office-mobile.png");
+    linear-gradient(var(--grey)), url(../images/hero/people-office-mobile.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -381,8 +377,8 @@ address {
 @media screen and (min-resolution: 192dpi) {
   .hero {
     background-image:
-      linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-      url("../images/hero/people-office-mobile@2x.png");
+      linear-gradient(var(--grey)),
+      url(../images/hero/people-office-mobile@2x.png);
   }
 }
 
@@ -940,7 +936,8 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    transition: color var(--transition-duration) var(--transition-timing-function);
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
   }
 
   .nav-link::after {
@@ -987,7 +984,8 @@ address {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--slate);
-    transition: color var(--transition-duration) var(--transition-timing-function);
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
   }
 
   .mobile-menu {
@@ -997,8 +995,8 @@ address {
   .hero {
     padding: 112px 0;
     background-image:
-      linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-      url("../images/hero/people-office-tablet.png");
+      linear-gradient(var(--grey)),
+      url(../images/hero/people-office-tablet.png);
   }
 
   .hero-title {
@@ -1101,8 +1099,8 @@ address {
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
     background-image:
-      linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-      url("../images/hero/people-office-tablet@2x.png");
+      linear-gradient(var(--grey)),
+      url(../images/hero/people-office-tablet@2x.png);
   }
 }
 
@@ -1143,8 +1141,8 @@ address {
   .hero {
     padding: 188px 0;
     background-image:
-      linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-      url("../images/hero/people-office-desktop.png");
+      linear-gradient(var(--grey)),
+      url(../images/hero/people-office-desktop.png);
   }
 
   .hero-button {
@@ -1211,7 +1209,7 @@ address {
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
     background-image:
-      linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-      url("../images/hero/people-office-desktop@2x.png");
+      linear-gradient(var(--grey)),
+      url(../images/hero/people-office-desktop@2x.png);
   }
 }
